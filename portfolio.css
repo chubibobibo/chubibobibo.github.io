@@ -1,5 +1,5 @@
 body {
-    color: #e9edc9;
+    background-color: #e9ecef;
 }
 
 /* This is H1 */
@@ -10,7 +10,7 @@ h1 {
     font-family: 'Montserrat Alternates', sans-serif;
     text-align: center;
     color: black;
-    margin: 3rem;
+    margin: 3rem 0;
 }
 
 /* This is nav */
