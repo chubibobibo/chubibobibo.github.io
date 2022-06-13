@@ -42,15 +42,21 @@ a {
 
 }
 
-.img1 {
-    flex-grow: 1;
+.tinig a {
+    justify-content: center;
 }
+
+
 
 .biyahe {
     width: 60%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+
+biyahe a {
     justify-content: center;
 }
 
