@@ -140,8 +140,8 @@ table {
 h1 {
     background: url(https://images.unsplash.com/photo-1545546338-74d4355c2f01?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw5MzY4Njc1MXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60) center/cover no-repeat;
 
-    height: 350px;
-    background-position: bottom;
+    height: 200px;
+    background-position: 25% 75%;
     font-size: 40px;
     color: #1d3557;
     border-radius: 1rem;
@@ -173,7 +173,6 @@ li {
 #time h4 {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
-    border-bottom: 1px solid black;
 }
 
 #resform {
@@ -184,7 +183,6 @@ li {
 #resform h4 {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
-    border-bottom: 1px solid black;
 }
 
 #time li {
@@ -195,9 +193,9 @@ li {
     margin-top: 10px;
 }
 
-@media (max-width: 720px) {}
+@media (max-width: 720px) {
 
-#resform {
-    margin-top: 10px;
-}
+    #resform {
+        margin-top: 10px;
+    }
 }
