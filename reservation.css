@@ -148,9 +148,6 @@ h1 {
     margin-bottom: 10px;
 }
 
-
-
-
 nav {
     border-radius: 2rem;
     margin-bottom: 10px;
@@ -163,7 +160,9 @@ nav {
 
 li {
     text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 
 #time {
     background-color: #a2d2ff;
@@ -185,15 +184,28 @@ li {
     text-transform: capitalize;
 }
 
+label {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 #time li {
     text-align: justify;
 }
 
 #button {
+    margin: 10px auto;
+}
+
+.name,
+.address,
+.city,
+.zip,
+.hours,
+.comment {
     margin-top: 10px;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
 
     #resform {
         margin-top: 10px;
